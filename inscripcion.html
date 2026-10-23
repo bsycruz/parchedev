@@ -13,36 +13,36 @@
     <a href="index.html">Parche Dev 2026</a>
     <nav aria-label="Principal">
       <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="agenda.html">agenda</a></li>
         <li><a href="ponentes.html">Ponentes</a></li>
         <li><a href="inscripcion.html" aria-current="page">Inscripción</a></li>
-        <li><a href="conducta.html">Código de conducta</a></li>
+        <li><a href="conducta.html">Código de Conducta</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="contenido">
     <h1>Inscripción</h1>
-    <p>La entrada es gratuita y los cupos son limitados. Completa el formulario para reservar el tuyo.</p>
-    <p>Los campos marcados con * son obligatorios.</p>
+    <p>La entrada es gratuita y los cupos son limitados Completa el formulario para reservar el tuyo.</p>
+    <p>Los campos marcados con  obligatorios.</p>
 
     <form action="gracias.html" method="get">
       <fieldset>
         <legend>Tus datos</legend>
 
         <div>
-          <label for="nombre">Nombre completo *</label>
+          <label for="nombre">nombre completo *</label>
           <input type="text" id="nombre" name="nombre" required>
         </div>
 
         <div>
-          <label for="correo">Correo electrónico *</label>
+          <label for="correo">Correo electronico *</label>
           <input type="email" id="correo" name="correo" required>
         </div>
 
         <div>
-          <label for="celular">Celular (10 dígitos, empieza por 3)</label>
+          <label for="celular">Celular (10 dígitos empieza por 3)</label>
           <input type="tel" id="celular" name="celular" pattern="3[0-9]{9}" title="Ingresa un número de celular de 10 dígitos que empiece por 3">
         </div>
 
@@ -50,17 +50,17 @@
           <label for="ciudad">Ciudad</label>
           <select id="ciudad" name="ciudad">
             <option value="">Selecciona tu ciudad</option>
-            <option value="medellin">Medellín</option>
-            <option value="bello">Bello</option>
-            <option value="itagui">Itagüí</option>
-            <option value="envigado">Envigado</option>
-            <option value="sabaneta">Sabaneta</option>
-            <option value="la-estrella">La Estrella</option>
-            <option value="caldas">Caldas</option>
-            <option value="copacabana">Copacabana</option>
-            <option value="girardota">Girardota</option>
-            <option value="barbosa">Barbosa</option>
-            <option value="otra">Otra</option>
+            <option value="medellin">medellin</option>
+            <option value="bello">bello</option>
+            <option value="itagui">itagu</option>
+            <option value="envigado">envigado</option>
+            <option value="sabaneta">sabaneta</option>
+            <option value="la-estrella">la estrella</option>
+            <option value="caldas">caldas</option>
+            <option value="copacabana">copacabana</option>
+            <option value="girardota">giradota</option>
+            <option value="barbosa">barbosa</option>
+            <option value="otra">ota</option>
           </select>
         </div>
       </fieldset>
@@ -126,23 +126,23 @@
           <select id="talla" name="talla">
             <option value="">Selecciona tu talla</option>
             <option value="XS">XS</option>
-            <option value="S">S</option>
-            <option value="M">M</option>
-            <option value="L">L</option>
-            <option value="XL">XL</option>
-            <option value="XXL">XXL</option>
+            <option value="S">s</option>
+            <option value="M">m</option>
+            <option value="L">l</option>
+            <option value="XL">xl</option>
+            <option value="XXL">xxl</option>
           </select>
         </div>
 
         <div>
-          <label for="expectativas">¿Qué esperas aprender en Parche Dev? (máximo 300 caracteres)</label>
+          <label for="expectativas">Que esperas aprender en Parche Dev? (maximo 300 caracteres)</label>
           <textarea id="expectativas" name="expectativas" maxlength="300" rows="4"></textarea>
         </div>
       </fieldset>
 
       <div>
         <input type="checkbox" id="acepto-conducta" name="acepto_conducta" value="si" required>
-        <label for="acepto-conducta">Acepto el <a href="conducta.html">código de conducta</a> del evento *</label>
+        <label for="acepto-conducta">Acepto el <a href="conducta.html">codigo de conducta</a> del evento *</label>
       </div>
 
       <button type="submit">Reservar mi cupo</button>
